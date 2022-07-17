@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    </head>
+    <title> abhijitrajput_45 </title>
+    <style>
+        html{
+            overflow: scroll;
+           
+        }
+    *{
+        margin-top: 0;
+        padding: 0;
+        box-sizing: border-box;
+   }
+     body{
+        font-family: poppins, sans-serif;
+        background-image: url(/img/pex.jpg);
+        background-size:cover;
+        background-color: black;
+    }
+    .c{
+         font-size: 30px;
+         font: "poppins";
+         color: white;
+        margin-top: 10px;
+        text-decoration: none;
+
+    }
+    .navbar{
+        height: 60px;
+        width: 100%;
+        padding: 14px 30px;
+        background-color:black;
+        position: relative;
+        box-shadow: 0 0 10px 0 black;
+    }
+    .navbar .nav-header{
+        display:inline;
+        
+    }
+    .navbar .nav-header {
+        display: inline-block;
+        margin-top: -7px;
+        
+    }
+    .c{
+        font-size: 20px;
+        color: skyblue;
+    }
+    .navbar  .nav-links{
+        display: inline;
+        float: right;
+        font-size: 15px;
+        font:"poppins";
+        margin-left: -20px;
+    }
+    .navbar .nav-links{
+        display: inline-block;
+        padding: 5px 15px;
+        margin-left: 20px;
+        font-size: 17px;
+        color: #4070F4;
+        font:"poppins";
+    }
+    .nav-links a {
+         display: inline;
+      
+         position: relative;
+
+      }
+
+      .nav-links a:after {
+         content: '';
+         position: absolute;
+         width: 100%;
+         transform: scaleX(0);
+         height: 2px;
+         bottom: 1px;
+         left: 0px;
+         top: 40px;
+         right: 0px;
+         background-color: #0087ca;
+         transform-origin: bottom right;
+         transition: transform 0.25s ease-out;
+      }
+
+      .nav-links a:hover:after {
+         transform: scaleX(1);
+         transform-origin: bottom right;
+      }
+
+    .loginBtn{
+         background-color: red;
+         display: inline-block;
+         text-decoration: none;
+         font: "poppins";
+         color: white;
+         padding: 5px 15px;
+         margin-left: 20px;
+         border-radius: 80px;
+    }
+    .loginBtn:hover{
+        background-color: white;
+        font: "poppins";
+        color: black;
+        border: 2px solid red;
+    }
+    .navbar .nav-links a{
+        font:"poppins";
+        padding: 10px 12px;
+        text-decoration: none;
+        font-weight: 550;
+        color:white;
+    }
+
+
+    
+    .navbar #nav-check, .navbar .nav-btn{
+        display: none;
+    }
+    .hometitle{
+        font-size: 50px;
+        color: white;
+        
+        margin: 150px 0 0 50px;
+    }
+    .spancolor{
+     
+        color:skyblue;
+    }
+    .image{
+        margin: -250px 0 0 500px;
+    }
+    .about{
+        color:white;
+       margin-top: 100px;
+       text-align:center;
+   
+    }
+    .about_section{
+      display: flex;
+      width: 100%;
+      /* background-color: white; */
+    }
+    .info{
+        width:50%;
+        height: 300px;
+        font-size: 30px;
+        font-style: italic;
+        color:white;
+        margin-top: 7 0px;
+    } 
+    .pic{
+       /* margin-top: -320px;
+       margin-left:-600px; */
+       width: 50%;
+    }
+    
+       .set{
+        color:white;
+        
+        
+       }
+       .text2{
+        
+        margin: 150px 0 0 300px;
+      
+       }
+       .cont {
+         width: 90%;
+         height: 40px;
+         background-color:lightgrey;
+         text-align: right;
+         color:white;
+         
+       }
+       .html {
+         width: 50%; height:100%; background-color:gray;
+         
+      }
+       .css {
+         width: 30%; height:100%;background-color:  gray;
+      }
+       .c3 {
+         width: 40%;height:100%; background-color: gray;
+      }
+       .java {
+         width: 50%;height:100%; background-color:gray;
+      }
+      .loginbutn{ background-color: red;
+         display: inline-block;
+         text-decoration: none;
+         font: "poppins";
+         color: white;
+         padding: 20px 30px;
+         margin:100px 0 0 400px;
+         
+         border-radius: 80px;
+      }
+      .loginbutn:hover {
+        background-color: white;
+        font: "poppins";
+        color: black;
+        border: 2px solid red;
+      }
+      
+       .service{
+        font-size: 20px;
+        
+        color: white;
+        margin: 100px 0 0 400px;
+
+       }
+       .img{
+
+         max-width: 1024px;
+         display: grid;
+         grid-template-columns: 80%;
+         grid-row-gap: 25px;
+         margin-left:90px;
+       }
+
+       .workimg{
+        
+            margin-left:150px;
+            overflow: hidden;
+          
+        
+          
+       }
+       .workimg img{
+            width:250px;
+            height:250px;
+            transition: 2s;
+            cursor: pointer;
+          }
+          .workimg img:hover{
+            transform: scale(1.2);
+          }
+          .buttnn{ 
+            display: inline-block;
+            text-decoration: none;
+            font: "poppins";
+            color: white;
+            background-color:rgb(209, 45, 45);
+            padding: 3%;
+            border-radius: 80px;
+            margin: 40px 0 0 360px;
+            width: fit-content;
+            height: fit-content;
+
+          }
+          .buttnn:hover{
+        background-color: white;
+        font: "poppins";
+        color: black;
+        border: 2px solid red;
+            
+
+          }
+          .contact{
+            font-size: 20px;
+            color: white;
+            margin: 50px 0px 0px 90px;
+            text-align: center;
+
+          }
+          .ci{
+            width: 100%;
+            font-size: normal;
+   
+            padding: 16px;
+            border-radius: 8px;
+            border: 1.5px solid#0E2431;
+            outline: none;
+            margin-bottom: 32px;
+          }
+          .cb{
+            display: block;
+            border: none;
+            outline: none;
+            font-size: normal;
+            cursor: pointer;
+            margin-left: auto;
+          }
+          .h{
+            font:poppins;
+            font-size:20px;
+            color:#ff3838;
+            
+          }
+          .home__social {
+         display: flex;
+         flex-direction: row;
+      }
+
+      .home__social-icon {
+         width: max-content;
+         padding: -20px;
+         margin: -150px 0px 5px 50px;
+         font-size: 20px;
+
+         color:yellow;
+      }
+
+      .home__social-icon:hover {
+         color: #4070F4;
+      }
+  @media (max-width:600px){
+        .navbar .nav-btn{
+            display: inline-block;
+            position: absolute;
+            top:0px;
+            right: 0px;
+        }
+        .navbar .nav-btn label{
+            display: inline-block;
+            width: 40px;
+            height: 70px;
+            padding: 25px;
+        }
+        .navbar .nav-btn label span {
+            display: block;
+            height: 8px;
+            width: 20px;
+            margin-left: -10px;
+            border-top: 3px solid #eee;
+        }
+       .navbar .nav-btn label:hover, .navbar #nav-check :checked ~ .nav-btn label{
+            background-color: rgb(9, 14, 90);
+            margin-left: -10px;
+
+        }
+        .navbar .nav-links{
+            position: absolute;
+            display: block;
+            text-align: center;
+            width: 60%;
+            margin-left: -10px;
+            background-color: rgb(9, 14, 90);
+            transition: all 0.3s ease-in;
+           overflow-y : hidden;
+            top: 60px;
+            right: 0px;
+        }
+        .navbar .nav-links a{
+            display: block;
+            
+        }
+        .navbar #nav-check{
+          position: relative;
+        }
+        .navbar #nav-check:not(:checked) ~ .nav-links{
+          height: calc(100vh  -  60px);
+          
+          top: -100vh;
+          overflow: hidden;
+          right: 0px;
+          width: 200px;
+        }
+        .navbar #nav-check:checked ~ .nav-links{
+            height: calc(100vh  -  60px);
+           overflow: hidden;
+            top: 60px;
+            right: 0px;
+            width: 200px;
+        }
+        .navbar .nav-links .loginBtn{
+            padding: 10px 40px;
+            margin: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(9, 14, 90);
+        }
+        .hometitle{
+        font-size: 50px;
+        color: white;
+        margin: 150px 0 0 40px;
+        text-align: left;
+   
+        }
+        .spancolor
+        {
+     color:skyblue;
+       }
+ .image
+ {
+    width:90px;
+    height:90px;
+     margin: 100px 0 0 -90px;
+
+ }
+ .about {
+        color:white;
+       margin-top: 380px;
+       text-align:left;
+        }
+        .about_section{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      /* background-color: white; */
+    }
+    .info{
+        width:100%;
+        height: 300px;
+        /* margin: 50px 0 0 80px; */
+        font-size: 20px;
+        font-style: italic;
+        color:white;
+        text-align: center;
+        margin-top: 20px;
+        }
+       .pic{
+          width: 100%;
+         }
+    
+       .text2{
+        
+        margin: 110px 0 0 140px;
+              
+       }
+       .loginbutn{ background-color: red;
+         display: inline-block;
+         text-decoration: none;
+         font: "poppins";
+         color: white;
+         padding: 20px 30px;
+         margin:70px 0 0 200px;
+         
+         border-radius: 80px;
+      }
+      .loginbutn:hover {
+        background-color: white;
+        font: "poppins";
+        color: black;
+        border: 2px solid red;
+      }
+      .cont {
+         width: 90%;
+         height: 40px;
+         background-color:lightgrey;
+         text-align: right;
+         color:white;
+         
+         margin-left: 10px;
+       }
+       .html {
+         width: 50%; height:100%; background-color:gray;
+        
+        }
+       .css {
+         width: 30%; height:100%;background-color:  gray;
+        }
+       .c3 {
+         width: 40%;height:100%; background-color: gray;
+         }
+       .java {
+         width: 50%;height:100%; background-color:gray;
+         }
+         .service{
+        font-size: 20px;
+        color: white;
+        margin: 100px 0 0 200px;
+         }
+         .img{
+
+        max-width: 1024px;
+        display: grid;
+        grid-template-columns: 80%;
+        grid-row-gap: 25px;
+        margin-left:90px;
+        }
+        .workimg
+        {
+        
+        margin-left:70px;
+        overflow: hidden;
+      
+        }
+       .workimg img{
+        width:130px;
+        height:130px;
+        transition: 2s;
+        cursor: pointer;
+         }
+      .workimg img:hover{
+        transform: scale(1.2);
+      }
+      .buttnn{ 
+            display: inline-block;
+            text-decoration: none;
+            font: "poppins";
+            color: white;
+            background-color:rgb(209, 45, 45);
+            padding: 3%;
+            border-radius: 80px;
+            margin: 10px 0 0 170px;
+            width: fit-content;
+            height: fit-content;
+
+          }
+       .buttnn:hover{
+        background-color: white;
+        font: "poppins";
+        color: black;
+        border: 2px solid red;
+          }
+          .contact{
+            font-size: 20px;
+            color: white;
+            margin: 50px 0px 0px 20px;
+            text-align: center;
+
+          }
+    }
+
+
+  
+    </style>
+    <body>
+         <div class = "navbar">
+           <div class = "nav-header">
+                <h1 class="c">Portfolio</h1>
+           </div> 
+           
+           <input type="checkbox" id="nav-check">
+           <div class = "nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+           </div> 
+           <div class = "nav-links">
+            <a href="#a1">Home</a>
+            <a href="#a2">About</a>
+            <a href="#a3">Skills</a>
+            <a href="#a4">Services</a>
+            <a href="#a5">Contact</a>
+           
+            <button class = "loginBtn">Hire-Me</button>
+           </div>
+         </div>
+     <div class="homedata" id="a1">
+   
+            <h1 class="hometitle"><br>
+                <br>Hi,<br>I'am <span class="spancolor">Abhijit Tawar</span><br>Web Developer</h1>
+            
+              
+            <div class="image">
+            <img style="width:500px; height:500px" src="C:\Portff\img\abhi.jpg">
+         </div>
+         <div class="home__social">
+            <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+            <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            <a href="" class="home__social-icon"><i class='bx bxl-telegram'></i></a>
+            <a href="" class="home__social-icon"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.instagram.com/abhijitrajput_45/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+        </div>
+         <div class="about" id="a2" ><h1><br>
+            <br><b>About Me</b></h1><hr>
+        <div class="about_section">
+          <div class="pic"><img style="width:300px; height:300px" src="C:\Portff\img\fff.jpg"></div>
+    <div class="info"><p>I am front-end Developer.
+ I can provide clean code and
+ pixel perfect design. I also 
+ make website more & more in-
+ teractive with web animination.</p>
+ </div>
+
+</div>
+
+    
+</div>
+    <div class="set" id="a3">
+        <h1 class="text2"><br>
+            Professional Skills</h1><hr>
+        <p>HTML</p>
+        <div class="cont">
+          <div class="html">50%</div>
+        </div>
+        <br>
+        <p>CSS</p>
+        <div class="cont">
+          <div class="css">30%</div>
+        </div>
+        <br>
+        <p>C</p>
+        <div class="cont">
+          <div class=" c3">40%</div>
+        </div>
+        <br>
+        <p>Java</p>
+        <div class="cont">
+          <div class="java">50%</div>
+        </div>
+        <button class = "loginbutn">Lets Talk</button>
+    </div>
+    <div class="service" id="a4"><br>
+
+
+        <h1> Services</h1>
+
+    </div>
+    <hr>
+    <div class="img">
+
+        <div class="workimg">
+            <img src="C:\Portff\img\1.jpg" >
+            <img src="C:\Portff\img\2.jpg">
+            <img src="C:\Portff\img\3.jpg">
+            <img src="C:\Portff\img\4.jpg">
+           
+    </div>
+    
+    <button class="buttnn">Hire Me</button>
+    
+    
+    
+    
+    
+    
+    <div class="contact" id="a5"><br>
+        <h1>Contact</h1>
+    </div>
+    <div class="form">
+        <form>
+            <h1 class="h">Enter Your Name</h1>
+            <input type="text" placeholder="name" class="ci">
+            <h1 class="h">Enter Your Mail</h1>
+            <input type="Mail" placeholder="email" class="ci">
+            <h1 class="h">Enter your Comments : - </h1>
+            <textarea name=" "cols="0" rows="10"  placeholder="comments"class="ci"></textarea>
+            <a href="#">
+            <button type="submit" placeholder="enter" class="cb buttnn">Submit
+            </button>
+            </a>
+        </form>
+    </div>
+    
+    </body>
+</html>
